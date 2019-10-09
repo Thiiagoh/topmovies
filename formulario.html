@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+   		<meta charset="UTF-8">
+   		<title>The TopMovies - Formulario</title>
+	    <style type="text/css">
+			h1{
+				color: white;
+				text-align: center;
+				font-family: impact;	
+		 	}
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				font-family: "trebuchet ms";
+				background-color: rgba(0,0,0, 95%);
+			}
+			a{
+				text-decoration: none;
+				color: #000;
+			}
+			a:hover{
+			}
+			#fundo{
+			    width: 640px;
+			    height: 80px;
+			    line-height: 80px;
+			    background-color: rgba(0,0,0, 20%);
+			    border-radius: 10px;
+			    margin: 0 auto;
+			}
+			ul.menu{
+			    text-align: center;
+			}
+			ul.menu li{
+			    display: inline-block;
+			    margin: 0 5px;
+			}
+			ul.menu li a{
+			    background-color: #ffffff;
+			    border-radius: 6px;
+			    padding: 6px 10px;
+			    color: #000000;
+			}
+			ul.menu li a:hover{
+			    background-color: #515557;
+			}
+			h2{
+				color: white;
+				color: rgba(255,255,255,50%);
+				text-shadow: black 0.1em 0.1em 0.2em
+				padding: 20px 0px 20px 0px;
+			}
+			.filmes{
+		  		padding: 25px 330px 25px 330px;
+  				border-radius: 10px;
+  				background-color: rgba(0,0,0,40%);
+			}
+			.daleformulario{
+				color: white;
+				float: middle;
+				background-color: rgba(255,255,255, 10%);
+				border-radius: 10px;
+				padding: 20px;
+			}
+		</style>
+	</head>
+ 	<body>
+ 		<h1>The TopMovies</h1>
+		<div id="fundo">
+    		<ul class="menu">
+        		<li><a href="index.html">Populares</a></li>
+		        <li><a href="lancamentos.html">Lançamentos</a></li>
+		        <li><a href="recomendados.html">Recomendados</a></li>
+		        <li><a href="novidades.html">Novidades</a></li>
+		        <li><a href="formulario.html">Formulário</a></li>
+		    </ul>
+		</div>
+		<h2 align="center">FORMULARIO PARA FILMES E SÉRIES</h2>
+		<div class="filmes">
+			<div class="daleformulario">
+				<form>
+					<font size="6"><label>Nome</label></font><br/>
+					<input size="50" type="text" placeholder="Nome" required><br/><br/>
+					<font size="6"><label>Email</label></font><br>
+					<input size="50" type="email" placeholder="E-mail" required><br><br/>
+					<font size="6"><label>Tipo</label></font><br/>
+					<input type="checkbox" name="escolha" value="filme"> Filme<br/>
+					<input type="checkbox" name="escolha" value="serie"> Serie<br/>
+					<font size="6"><label>Mensagem</label></font><br/>
+					<textarea rows="7" cols="92" maxlength="200" required></textarea>
+					<br/><br/>
+					<input type="submit" name="Enviar" value="ENVIAR">
+					<input type="reset" name="Limpar" value="LIMPAR">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
