@@ -2,7 +2,7 @@
 <html>
 	<head>
    		<meta charset="UTF-8">
-   		<title>The TopMovies - Contato</title>
+   		<title>The TopMovies - Sugestões</title>
 	    <style type="text/css">
 			h1{
 				color: white;
@@ -59,12 +59,13 @@
   				background-color: rgba(0,0,0,40%);
 			}
 			.daleformulario{
-				display: block;
-				color: white;
+				width: 100%; 
+				margin: 0px auto;
+				padding: 20px;
 				float: middle;
+				color: white;
 				background-color: rgba(255,255,255, 10%);
 				border-radius: 10px;
-				padding: 20px;
 			}
 		</style>
 	</head>
@@ -76,19 +77,19 @@
 		        <li><a href="lancamentos.html">Lançamentos</a></li>
 		        <li><a href="recomendados.html">Recomendados</a></li>
 		        <li><a href="novidades.html">Novidades</a></li>
-		        <li><a href="formulario.html">Contato</a></li>
+		        <li><a href="formulario.html">Sugestões</a></li>
 		    </ul>
 		</div>
-		<h2 align="center">FORMULARIO PARA FILMES E SÉRIES</h2>
+		<h2 align="center">SUGESTÕES PARA FILMES E SÉRIES</h2>
 		<div class="filmes">
 			<div class="daleformulario">
-				<form>
+				<form style = "width: 50%; margin: 0px auto;">
 					<font size="6"><label>Nome</label></font><br/>
-					<input size="50" type="text" placeholder="Nome" required><br/><br/>
+					<input size="35" type="text" placeholder="Nome" required><br/><br/>
 					<font size="6"><label>Email</label></font><br>
-					<input size="50" type="email" placeholder="E-mail" required><br><br/>
+					<input size="35" type="email" placeholder="E-mail" required><br><br/>
 					<font size="6"><label>Mensagem</label></font><br/>
-					<textarea rows="7" cols="89" maxlength="200" placeholder="Digite uma mensagem..." required></textarea>
+					<textarea rows="10" cols="55" maxlength="200" placeholder="Digite uma mensagem..." required></textarea>
 					<br/><br/>
 					<input type="submit" name="Enviar" value="ENVIAR">
 					<input type="reset" name="Limpar" value="LIMPAR">
