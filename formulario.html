@@ -54,16 +54,17 @@
 				padding: 20px 0px 20px 0px;
 			}
 			.filmes{
-		  		padding: 25px 330px 25px 330px;
-  				border-radius: 10px;
   				background-color: rgba(0,0,0,40%);
+           	 	display: flex;
+           	 	flex-direction: row;
+            	justify-content: center;
+            	align-items: center;
+            	color: white;
+		  		padding: 25px;
+  				border-radius: 10px;
 			}
 			.daleformulario{
-				width: 100%; 
-				margin: 0px auto;
 				padding: 20px;
-				float: middle;
-				color: white;
 				background-color: rgba(255,255,255, 10%);
 				border-radius: 10px;
 			}
@@ -83,17 +84,17 @@
 		<h2 align="center">SUGESTÕES PARA FILMES E SÉRIES</h2>
 		<div class="filmes">
 			<div class="daleformulario">
-				<form style = "width: 50%; margin: 0px auto;">
-					<font size="6"><label>Nome</label></font><br/>
-					<input size="35" type="text" placeholder="Nome" required><br/><br/>
-					<font size="6"><label>Email</label></font><br>
-					<input size="35" type="email" placeholder="E-mail" required><br><br/>
-					<font size="6"><label>Mensagem</label></font><br/>
-					<textarea rows="10" cols="55" maxlength="200" placeholder="Digite uma mensagem..." required></textarea>
-					<br/><br/>
-					<input type="submit" name="Enviar" value="ENVIAR">
-					<input type="reset" name="Limpar" value="LIMPAR">
-				</form>
+					<form>
+						<font size="6"><label>Nome</label></font><br/>
+						<input size="35" type="text" placeholder="Nome" required><br/><br/>
+						<font size="6"><label>Email</label></font><br>
+						<input size="35" type="email" placeholder="E-mail" required><br><br/>
+						<font size="6"><label>Mensagem</label></font><br/>
+						<textarea rows="10" cols="55" maxlength="200" placeholder="Digite uma mensagem..." required></textarea>
+						<br/><br/>
+						<input type="submit" name="Enviar" value="ENVIAR">
+						<input type="reset" name="Limpar" value="LIMPAR">
+					</form>
 			</div>
 		</div>
 	</body>
